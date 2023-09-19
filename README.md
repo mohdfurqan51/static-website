@@ -4,6 +4,8 @@ Step 2: Open the extracted folder in vs code.
 
 Step 3: Go to terminal and run following command: 
 
+        npm install
+        
         npm run dev
 
 Step 4: Open localhost:3000
