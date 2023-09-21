@@ -4,10 +4,10 @@ import aboutus from "../images/aboutus.png";
 
 const About = () => {
   return (
-    <div className="flex mt-36 ">
+    <div className="flex mt-36 about-us-container">
       <div className="container flex-1">
-        <h1>ABOUT US</h1>
-        <p className="text-white italic p-12">
+        <h1 className="header-text">ABOUT US</h1>
+        <p className="text-white italic -mt-10 p-12 about-us-text">
           Aadhyashri Infra Private Limited is incorporated by people of
           different sectors. All our partners and promoters are nature & wild
           life lovers. Having an array of experience in sustainable development,
@@ -21,7 +21,7 @@ const About = () => {
           Hills is the perfect place to call your second home.
         </p>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 about-us-image">
         <Image className="border-solid border-4 mb-12 rounded-lg" src={aboutus} alt="" height={800} />
       </div>
 

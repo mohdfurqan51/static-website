@@ -5,9 +5,9 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <div className='container mx-auto py-12 flex mt-24'>
-        <Image className="border-solid border-4 rounded-lg mr-8" src={serviceImage} alt="" height={800}/>
-        <Image className="border-solid border-4 rounded-lg" src={nearby} alt="" height={800}/>
+    <div className='container mx-auto py-12 flex mt-24 services-container'>
+        <Image className="border-solid border-4 rounded-lg mr-8 services-container-images" src={serviceImage} alt="" height={800}/>
+        <Image className="border-solid border-4 rounded-lg services-container-images services-container-image-2" src={nearby} alt="" height={800}/>
     </div>
   )
 }

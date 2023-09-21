@@ -8,9 +8,9 @@ import Image from "next/image";
 const Adventure = () => {
   return (
     <div>
-      <div className="flex mt-24">
+      <div className="flex mt-24 adventure-container">
         <div className="container mx-auto text-justify">
-          <p className="text-white m-20 mt-32 align-middle leading-8 text-2xl">
+          <p className="text-white m-20 mt-32 align-middle leading-8 text-2xl adventure-container-text-1">
             Fun Activities can be performed in short distances like
             <span className="font-bold">
               &nbsp; water rafting, hot air balloon, paragliding, jungle safari,
@@ -22,21 +22,21 @@ const Adventure = () => {
             Garjiya Devi Temple & Hanuman Dham for soul purification.
           </p>
         </div>
-        <div className="container mx-auto grid grid-rows-1 grid-flow-col mt-12">
+        <div className="container mx-auto grid grid-rows-1 grid-flow-col mt-12 adventure-three-images">
           <Image
-            className="border-solid border-4 rounded-lg"
+            className="border-solid border-4 rounded-lg adventure-three-images-image"
             src={adv1}
             alt=""
             height={400}
           ></Image>
           <Image
-            className="border-solid border-4 rounded-lg"
+            className="border-solid border-4 rounded-lg adventure-three-images-image"
             src={adv2}
             alt=""
             height={400}
           ></Image>
           <Image
-            className="border-solid border-4 rounded-lg"
+            className="border-solid border-4 rounded-lg adventure-three-images-image"
             src={adv3}
             alt=""
             height={400}
@@ -44,18 +44,18 @@ const Adventure = () => {
         </div>
       </div>
 
-      <div className="flex">
+      <div className="flex adventure-container-2">
         <div className="container mx-auto mt-12">
           <Image
-            className="border-solid border-4 rounded-lg m-20"
+            className="border-solid border-4 rounded-lg m-20 serinity-image"
             src={serinity}
             alt=""
             height={400}
           ></Image>
         </div>
-        <div className="container m-20 mx-auto text-justify mt-32">
-          <h2 className="text-white m-20 text-4xl">SOUNDS OF SERENITY!</h2>
-          <p className="text-white m-20 align-middle -mt-12 text-2xl">
+        <div className="container m-20 mx-auto text-justify mt-32 serinity-container">
+          <h2 className="text-white m-20 text-4xl serinity-heading header-text">SOUNDS OF SERENITY!</h2>
+          <p className="text-white m-20 align-middle -mt-12 text-2xl serinity-text adventure-container-text-1">
             Team up with life, find peace of mindand live a more fulfilling
             life. Stop waiting for things to happen, and start making them
             happen.

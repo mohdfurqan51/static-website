@@ -28,12 +28,15 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           rel="stylesheet"
         />
+
+        
       </head>
-      
+
       <body className={inter.className} style={{ backgroundColor: "#585858" }}>
         <Navbar />
         {children}
         <Footer />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
       </body>
     </html>
   );
